@@ -78,7 +78,7 @@ let modal =  function(modalClick){
 }
 
 modalBtns.forEach((modalBtns, i) => {
-    modalBtn.addEventListener('click',() =>{
+    modalBtns.addEventListener('click',() =>{
         modal(i)
     })
 })
