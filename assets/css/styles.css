@@ -628,11 +628,11 @@ img {
 }
 
 .services__button:hover .button__icon{
-  transform: translate(.25rem);
+  transform: translateX(.25rem);
 }
 
 .services__modal{
-  position:fixed;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -663,7 +663,7 @@ img {
   display: flex;
 }
 
-.services__model--title{
+.services__model-title{
   font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-1-5);
