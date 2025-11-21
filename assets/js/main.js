@@ -69,12 +69,12 @@ tabs.forEach(tab =>{
 })
 
 /*==================== SERVICES MODAL ====================*/
-const modelViews = document.querySelectorAll('.services__modal'),
+const modalViews = document.querySelectorAll('.services__modal'),
       modalBtns = document.querySelectorAll('.services__button'),
       modalCloses = document.querySelectorAll('.services__modal-close')
 
 let modal =  function(modalClick){
-    modelViews[modalClick].classList.add('active-modal')
+    modalViews[modalClick].classList.add('active-modal')
 }
 
 modalBtns.forEach((modalBtn, i) => {
@@ -85,7 +85,7 @@ modalBtns.forEach((modalBtn, i) => {
 
 modalCloses.forEach((modalClose) => {
     modalClose.addEventListener('click', () =>{
-        modalViews.forEach((modelView) =>{
+        modalViews.forEach((modalView) =>{
             modalView.classList.remove('active-modal')
         })
     })
