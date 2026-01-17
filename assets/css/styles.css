@@ -215,7 +215,7 @@ img {
   gap: 2rem;
 }
 
-.nav__list{
+.nav__link{
   display: flex;
   flex-direction: column;
   align-items: center;
